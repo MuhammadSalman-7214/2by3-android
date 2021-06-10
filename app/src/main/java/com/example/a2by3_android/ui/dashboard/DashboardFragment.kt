@@ -1,5 +1,4 @@
 package com.example.a2by3_android.ui.dashboard
-
 import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.ViewGroup
@@ -15,10 +14,7 @@ class DashboardFragment : BaseFragment<FragmentDashboardBinding , BaseRepository
 
   private val viewModel: DashboardViewModel by viewModels()
 
-  override fun getFragmentBinding(
-    inflater: LayoutInflater,
-    container: ViewGroup?
-  ): FragmentDashboardBinding {
+  override fun getFragmentBinding(inflater: LayoutInflater, container: ViewGroup?): FragmentDashboardBinding {
     return FragmentDashboardBinding.inflate(inflater, container, false)
   }
 
@@ -37,6 +33,4 @@ class DashboardFragment : BaseFragment<FragmentDashboardBinding , BaseRepository
   override fun onActivityCreation() {
 
   }
-
-
 }
